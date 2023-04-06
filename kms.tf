@@ -5,7 +5,9 @@ resource "aws_kms_key" "logs_key" {
   deletion_window_in_days = 7
   tags = {
     yor_trace = "bee04c7b-164a-4278-82e1-4ad345f0e8b7"
-    owner = "cmartinsjr_paloaltonetworks_com"
+    owner     = "cmartinsjr_paloaltonetworks_com"
+    Demo      = "gir_repo"
+    testing   = "Demo"
   }
 }
 
